@@ -12,3 +12,23 @@ Task demand:
    produce/print the contents of registers and data memories after execution of each instruction.
    Please see the sample simulation output file.
 
+Compile to produce an executable:
+
+```java
+javac MIPSsim.java
+```
+
+Execute 
+
+```java
+java MIPSsim sample.txt
+```
+
+Execute to generate disassembly and simulation files and test with correct/provided ones  
+
+```
+/MIPSsim inputfilename.txt or java MIPSsim inputfilename.txt
+diff–w –B disassembly.txt sample_disassembly.txt
+diff–w –B simulation.txt sample_simulation.txt
+```
+
