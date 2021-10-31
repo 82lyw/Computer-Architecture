@@ -1,8 +1,8 @@
-# Simple-MIPS-Simulator
+# Computer Architecture
 
-The repository contains the first homework of computer architecture : creating a simple MIPS simulator.
+The repository contains the homework of computer architecture : creating a simple MIPS simulator and Pipeline simulator.
 
-
+## Simple MIPS Simulator
 
 Task demand:
 
@@ -31,4 +31,6 @@ Execute to generate disassembly and simulation files and test with correct/provi
 diff–w –B disassembly.txt sample_disassembly.txt
 diff–w –B simulation.txt sample_simulation.txt
 ```
+
+## Pipeline Simulator
 
