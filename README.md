@@ -33,4 +33,4 @@ diff–w –B simulation.txt sample_simulation.txt
 ```
 
 ## Pipeline Simulator
-
+Task demand in [project2.pdf](proj/project2.pdf)
